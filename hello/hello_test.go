@@ -44,5 +44,5 @@ func TestHello(t *testing.T) {
 func ExampleHello() {
 	hello := Hello("there", "EN")
 	fmt.Println(hello)
-	// Output: "Hello, there"
+	// Output: Hello, there
 }
