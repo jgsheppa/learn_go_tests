@@ -39,8 +39,8 @@ func ExampleWallet() {
 	
 	// Withdraw 10 Bitcoin from the wallet
 	wallet.Withdraw(Bitcoin(10))
-	fmt.Println(wallet)
-	// Output: 0
+	fmt.Println(wallet.Balance())
+	// Output: 0 BTC
 }
 
 
